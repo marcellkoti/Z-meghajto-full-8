@@ -1,0 +1,30 @@
+h1{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+
+hr{
+    border: 5px solid #555555;
+}
+
+
+ p{
+    text-align:left;
+ }
+ 
+ img{
+   width: 120px; 
+   float: right;
+ }
+
+h3{
+    text-align: right;
+}
+
+body{
+   background-image: url(image.jpg);
+}
+
+ 

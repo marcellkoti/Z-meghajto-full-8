@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="2023e_kotma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-17 12:29:52 du."/>
+        <attribute name="created" value="MjAyM2Vfa290bWE7MTAzLTM7MjAyNC0xMC0xNzsxMToyOTo0OSBkZS47MjU1Ng=="/>
+        <attribute name="edited" value="MjAyM2Vfa290bWE7MTAzLTM7MjAyNC0xMC0xNzsxMjoyOTo1MiBkdS47MTsyNjc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sz&#225;m1, sz&#225;m2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Adjon meg egy &#233;rt&#233;ket&quot;" newline="True"/>
+            <input variable="sz&#225;m1"/>
+            <output expression="&quot;Adjon meg egy m&#225;sik &#233;rt&#233;ket&quot;" newline="True"/>
+            <input variable="sz&#225;m2"/>
+            <if expression="sz&#225;m1&gt;sz&#225;m2">
+                <then>
+                    <output expression="&quot;Az &quot;&amp;sz&#225;m1&amp;&quot; sz&#225;m a nagyobb&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Az &quot;&amp;sz&#225;m2&amp;&quot; sz&#225;m a nagyobb&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

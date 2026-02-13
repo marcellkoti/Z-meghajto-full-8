@@ -1,0 +1,1 @@
+1.SELECT SUM(szamla.ertek) AS "Szállás költség" FROM szamla INNER JOIN koltsegtipus ON szamla.koltsegtipusId=koltsegtipus.id WHERE koltsegtipus.megnevezes="Szállás";
